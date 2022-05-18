@@ -1,0 +1,24 @@
+//extend
+.ucard {
+  @extend .card-prod;
+
+  img {
+    @extend .img-prod;
+  }
+  a {
+    @extend .botton;
+  }
+  button {
+    @extend .botton-1;
+  }
+}
+
+//mixin
+@mixin botton-size($w, $h) {
+  width: $w;
+  height: $h;
+}
+
+.botton-1 {
+  @include botton-size(120px, 60px);
+}
