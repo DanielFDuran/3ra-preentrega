@@ -217,6 +217,10 @@ header h1 {
     width: 80%;
     height: auto; }
 
+.flexing {
+  display: flex;
+  justify-content: center; }
+
 .botton, .ucard a {
   text-align: center;
   font-family: "Roboto", sans-serif; }
